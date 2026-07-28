@@ -1,0 +1,110 @@
+# Sprint 1 – Foundation
+
+## Sprint Goal
+
+Build the core architecture of JobFlow by creating the application's relational database structure and preparing it for future automation.
+
+---
+
+## User Stories
+
+### Story 1
+
+As a job seeker,
+
+I want to maintain a list of companies,
+
+so that applications can reference employers without duplication.
+
+---
+
+### Story 2
+
+As a job seeker,
+
+I want to maintain recruiter information,
+
+so that recruiter relationships can be tracked.
+
+---
+
+### Story 3
+
+As a job seeker,
+
+I want to track every job application,
+
+so that I can monitor my application pipeline.
+
+---
+
+### Story 4
+
+As a job seeker,
+
+I want to store interview information separately,
+
+so that multiple interview rounds can be managed.
+
+---
+
+## Completed Work
+
+- Created Scoped Application (JobFlow)
+- Created Company table
+- Created Recruiter table
+- Created Job Application table
+- Created Interview table
+- Configured reference relationships
+- Generated application forms
+
+---
+
+## Database Design
+
+Company
+
+↓
+
+Recruiter
+
+↓
+
+Job Application
+
+↓
+
+Interview
+
+---
+
+## ServiceNow Concepts Used
+
+- App Engine Studio
+- Scoped Applications
+- Tables
+- Forms
+- Reference Fields
+- Data Modelling
+
+---
+
+## Screenshots
+
+(Add Sprint 1 screenshots here)
+
+---
+
+## Lessons Learned
+
+- Importance of designing the data model before business logic.
+- Reference fields reduce duplication and improve maintainability.
+- Building incrementally results in a cleaner architecture.
+
+---
+
+## Sprint Outcome
+
+Sprint completed successfully.
+
+The application foundation is ready for user interface improvements and business logic implementation.
