@@ -1,0 +1,181 @@
+# Sprint 5 – Flow Designer & Workflow Automation
+
+## Overview
+
+Sprint 5 focused on introducing **Flow Designer automation** to JobFlow, reducing manual effort and improving data consistency throughout the job application lifecycle.
+
+Instead of relying on manual updates, the application now automatically creates interview records and synchronizes application statuses based on interview outcomes.
+
+---
+
+## Objectives
+
+- Learn and implement ServiceNow Flow Designer.
+- Automate repetitive user tasks.
+- Maintain data consistency between related tables.
+- Keep the application low-code and maintainable.
+- Demonstrate practical workflow automation for a real-world use case.
+
+---
+
+## Flow 1 – JF - Auto Create Interview
+
+### Business Requirement
+
+Whenever a Job Application progresses to the **Interview Scheduled** stage, the user should not have to manually create an Interview record.
+
+### Automation
+
+When:
+
+- Job Application Status changes to **Interview Scheduled**
+
+Automatically:
+
+- Creates a new Interview record.
+- Links the Interview to the corresponding Job Application.
+
+### Business Value
+
+- Eliminates repetitive manual work.
+- Ensures every scheduled interview has a corresponding Interview record.
+- Maintains referential integrity between Job Applications and Interviews.
+
+### ServiceNow Concepts Used
+
+- Flow Designer
+- Record Updated Trigger
+- Create Record Action
+- Reference Field Mapping
+
+---
+
+## Flow 2 – JF - Synchronize Interview Result
+
+### Business Requirement
+
+After completing an interview, users often update both:
+
+- Interview Result
+- Job Application Status
+
+This duplicates effort and can lead to inconsistent data.
+
+### Automation
+
+When:
+
+- Interview Result is updated
+
+Automatically updates the related Job Application.
+
+Current mappings:
+
+| Interview Result | Job Application Status |
+|------------------|------------------------|
+| Selected | Offer Received |
+| Rejected | Rejected |
+
+### Business Value
+
+- Eliminates duplicate updates.
+- Maintains consistency between Interview and Job Application records.
+- Improves reporting accuracy.
+- Reduces user errors.
+
+### ServiceNow Concepts Used
+
+- Flow Designer
+- Conditional Logic (If / Else If)
+- Update Record Action
+- Reference Field Updates
+
+---
+
+## Tables Involved
+
+### Job Application
+
+Stores:
+
+- Company
+- Recruiter
+- Job Role
+- Application Status
+- Resume Used
+- Notes
+
+### Interview
+
+Stores:
+
+- Job Application Reference
+- Interview Date
+- Interview Mode
+- Interview Round
+- Interviewer
+- Feedback
+- Result
+
+---
+
+## Skills Demonstrated
+
+- Flow Designer
+- Record Triggers
+- Conditional Logic
+- Create Record
+- Update Record
+- Reference Field Mapping
+- Low-Code Automation
+- Workflow Design
+- Business Process Automation
+- ServiceNow Best Practices
+
+---
+
+## Sprint Outcome
+
+At the end of Sprint 5, JobFlow is capable of automatically:
+
+- Creating Interview records when interviews are scheduled.
+- Synchronizing Job Application status with Interview outcomes.
+
+These automations reduce manual effort while keeping application data accurate and consistent.
+
+---
+
+## Project Progress
+
+| Sprint | Status |
+|---------|--------|
+| Sprint 1 – Application Setup | ✅ Completed |
+| Sprint 2 – Data Model | ✅ Completed |
+| Sprint 3 – Business Logic | ✅ Completed |
+| Sprint 4 – UI Policies | ✅ Completed |
+| Sprint 5 – Workflow Automation | ✅ Completed |
+| Sprint 6 – Reports, Dashboard & Final Polish | ⏳ Next |
+
+---
+
+## Folder Structure
+
+```
+Sprint-05-Workflow-Automation/
+│
+├── README.md
+├── screenshots/
+│   ├── flow-auto-create-interview.png
+│   ├── flow-sync-interview-result.png
+│   ├── flow-test-auto-create.png
+│   └── flow-test-sync-status.png
+│
+└── update-set/
+    └── Sprint5_Workflow_Automation.xml
+```
+
+---
+
+## Key Takeaways
+
+Sprint 5 transformed JobFlow from a data management application into an intelligent workflow-driven solution by leveraging ServiceNow Flow Designer. The implemented automations streamline the recruitment tracking process, improve data integrity, and demonstrate practical low-code workflow development suitable for real-world ServiceNow implementations.

@@ -1,0 +1,52 @@
+# Sprint 3 – Business Logic & Client-Server Automation
+
+## Objective
+
+Enhance the JobFlow application by implementing business validation, reference relationships, and client-server automation using GlideAjax.
+
+---
+
+## Features
+
+### Company Reference Refactoring
+
+Converted the Company field into a reference field connected to the custom Company table to ensure relational data consistency.
+
+---
+
+### Recruiter Management
+
+Implemented a Recruiter table containing recruiter information and linked it to Company records using reference fields.
+
+---
+
+### Duplicate Application Prevention
+
+Developed a Before Insert Business Rule to prevent duplicate job applications for the same Company and Job ID combination.
+
+---
+
+### Auto Recruiter Population
+
+Implemented a Client Script, Script Include and GlideAjax communication that automatically populates the Recruiter field when a Company is selected.
+
+---
+
+## Concepts Practiced
+
+- Reference Fields
+- Dictionary Entries
+- Display Fields
+- Business Rules
+- GlideRecord
+- GlideAjax
+- Script Includes
+- Client Scripts
+- Client-Server Communication
+- Data Validation
+
+---
+
+## Outcome
+
+Sprint 3 transformed JobFlow from a basic CRUD application into a structured business application with automated validation and client-server interactions.

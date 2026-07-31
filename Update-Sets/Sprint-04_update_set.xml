@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-07-30 09:19:46">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<application_name>JobFlow</application_name>
+<application_scope>x_1908554_jobflow</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Sprint 4 completed smart forms using UI Policies
+</description>
+<inserted/>
+<name>Sprint-04</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>83f04b7a93d28710bda0f82bdd03d64a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>cfbc130b93d60b10bda0f82bdd03d6f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_f9b6d7cb93960b10bda0f82bdd03d6a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>interview_date</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-30 08:53:42</sys_created_on><sys_id>f9b6d7cb93960b10bda0f82bdd03d6a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>interview_date</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>sys_ui_policy_action_f9b6d7cb93960b10bda0f82bdd03d6a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:53:42</sys_updated_on><table>x_1908554_jobflow_interview</table><ui_policy display_value="JF - Lock Completed Interview">d1e39f4793960b10bda0f82bdd03d6ad</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=f9b6d7cb93960b10bda0f82bdd03d6a3"/></record_update>]]></payload>
+<payload_hash>548640951</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>03bc130b93d60b10bda0f82bdd03d6fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb23abe960000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_interview</table>
+<target_name>interview_date</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>61c61bcb98960b101857e4385617b80e</update_guid>
+<update_guid_history>61c61bcb98960b101857e4385617b80e:548640951</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1908554_jobflow_job_application_sys_created_on</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_created_on" table="x_1908554_jobflow_job_application"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Created On</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_created_on</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">calendar_date_time</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1908554_jobflow_job_application</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 10:39:06</sys_created_on><sys_id>8ebb9d2e93d6c310bda0f82bdd03d62b</sys_id><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:33:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>646242518</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>07bc130b93d60b10bda0f82bdd03d6f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb22810370000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_job_application</table>
+<target_name>Job Application.Created On</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2e125783b0960b103f836a5f68bc6460</update_guid>
+<update_guid_history>2e125783b0960b103f836a5f68bc6460:646242518,82c15b434a960b10b1f4eb568fc1994f:-2133938486,8ac15b430a960b10b582377edf561042:-2099635299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_14c097cf93560b10bda0f82bdd03d645</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>company</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-30 08:27:59</sys_created_on><sys_id>14c097cf93560b10bda0f82bdd03d645</sys_id><sys_mod_count>0</sys_mod_count><sys_name>company</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>sys_ui_policy_action_14c097cf93560b10bda0f82bdd03d645</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:27:59</sys_updated_on><table>x_1908554_jobflow_job_application</table><ui_policy display_value="JF - Lock Company Field">b340d78f939ec710bda0f82bdd03d693</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=14c097cf93560b10bda0f82bdd03d645"/></record_update>]]></payload>
+<payload_hash>-461958992</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>0fbc130b93d60b10bda0f82bdd03d6fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb223360b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_job_application</table>
+<target_name>company</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>49e0dbcf6c560b10388ff7b69771f03e</update_guid>
+<update_guid_history>49e0dbcf6c560b10388ff7b69771f03e:-461958992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_3c575f0f93960b10bda0f82bdd03d6c7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>round</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-30 08:56:20</sys_created_on><sys_id>3c575f0f93960b10bda0f82bdd03d6c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>round</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>sys_ui_policy_action_3c575f0f93960b10bda0f82bdd03d6c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:56:20</sys_updated_on><table>x_1908554_jobflow_interview</table><ui_policy display_value="JF - Lock Completed Interview">d1e39f4793960b10bda0f82bdd03d6ad</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=3c575f0f93960b10bda0f82bdd03d6c7"/></record_update>]]></payload>
+<payload_hash>-1515499369</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>43bc130b93d60b10bda0f82bdd03d6fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb23d2a8d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_interview</table>
+<target_name>round</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>9867df0fbd960b1056fe86eda273f535</update_guid>
+<update_guid_history>9867df0fbd960b1056fe86eda273f535:-1515499369</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_b340d78f939ec710bda0f82bdd03d693</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1908554_jobflow_job_application"&gt;status!=applied^EQ&lt;item display_value="Applied" endquery="false" field="status" goto="false" newquery="false" operator="!=" or="false" value="applied"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;JF - Lock Company Field&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-07-30 08:27:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b340d78f939ec710bda0f82bdd03d693&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;JF - Lock Company Field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="JobFlow" source="x_1908554_jobflow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="JobFlow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_b340d78f939ec710bda0f82bdd03d693&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-07-30 08:27:08&lt;/sys_updated_on&gt;&lt;table&gt;x_1908554_jobflow_job_application&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1728645445</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>47bc130b93d60b10bda0f82bdd03d6fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb2226c510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_job_application</table>
+<target_name>JF - Lock Company Field</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>14b0d3cfda560b108a7d122bed8a8de7</update_guid>
+<update_guid_history>14b0d3cfda560b108a7d122bed8a8de7:1728645445</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1908554_jobflow_job_application_sys_created_on_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="sys_created_on" label="Created On" language="en" table="x_1908554_jobflow_job_application"><sys_documentation action="INSERT_OR_UPDATE"><element>sys_created_on</element><help/><hint/><label>Created On</label><language>en</language><name>x_1908554_jobflow_job_application</name><plural>Created Ons</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 10:39:06</sys_created_on><sys_id>0abb9d2e93d6c310bda0f82bdd03d62c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Created On</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name>sys_documentation_x_1908554_jobflow_job_application_sys_created_on_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:33:17</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>790108165</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>83bc130b93d60b10bda0f82bdd03d6fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb22810130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_job_application</table>
+<target_name>Job Application.Created On</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>2a12578379960b10b52bdd19db24885d</update_guid>
+<update_guid_history>2a12578379960b10b52bdd19db24885d:790108165,2212578391960b10658851d42cacea58:1735434559</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_5bf6530f93960b10bda0f82bdd03d6de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>interviewer</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-30 08:54:53</sys_created_on><sys_id>5bf6530f93960b10bda0f82bdd03d6de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>interviewer</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>sys_ui_policy_action_5bf6530f93960b10bda0f82bdd03d6de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:54:53</sys_updated_on><table>x_1908554_jobflow_interview</table><ui_policy display_value="JF - Lock Completed Interview">d1e39f4793960b10bda0f82bdd03d6ad</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5bf6530f93960b10bda0f82bdd03d6de"/></record_update>]]></payload>
+<payload_hash>-875533097</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>87bc130b93d60b10bda0f82bdd03d6fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb23bd6b40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_interview</table>
+<target_name>interviewer</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>0b07930f5c960b1035b9e6b3299a7af1</update_guid>
+<update_guid_history>0b07930f5c960b1035b9e6b3299a7af1:-875533097</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_d1e39f4793960b10bda0f82bdd03d6ad</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1908554_jobflow_interview"&gt;result!=^EQ&lt;item display_value="-- None --" endquery="false" field="result" goto="false" newquery="false" operator="!=" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;JF - Lock Completed Interview&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-07-30 08:52:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d1e39f4793960b10bda0f82bdd03d6ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;JF - Lock Completed Interview&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="JobFlow" source="x_1908554_jobflow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="JobFlow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_d1e39f4793960b10bda0f82bdd03d6ad&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-07-30 08:52:22&lt;/sys_updated_on&gt;&lt;table&gt;x_1908554_jobflow_interview&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-334756484</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>8bbc130b93d60b10bda0f82bdd03d6fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb23989bd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_interview</table>
+<target_name>JF - Lock Completed Interview</target_name>
+<type>UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>56769f8bc6960b1043e7a826b6765ab2</update_guid>
+<update_guid_history>56769f8bc6960b1043e7a826b6765ab2:-334756484</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_0ee69fcb93960b10bda0f82bdd03d6e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>mode</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-30 08:54:27</sys_created_on><sys_id>0ee69fcb93960b10bda0f82bdd03d6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>mode</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>sys_ui_policy_action_0ee69fcb93960b10bda0f82bdd03d6e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:54:27</sys_updated_on><table>x_1908554_jobflow_interview</table><ui_policy display_value="JF - Lock Completed Interview">d1e39f4793960b10bda0f82bdd03d6ad</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=0ee69fcb93960b10bda0f82bdd03d6e4"/></record_update>]]></payload>
+<payload_hash>686577879</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>c7bc130b93d60b10bda0f82bdd03d6fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb23b6ece0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_interview</table>
+<target_name>mode</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>e4f6dfcb50960b10501ba3455a1dc729</update_guid>
+<update_guid_history>e4f6dfcb50960b10501ba3455a1dc729:686577879</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_policy_action_958613cb93960b10bda0f82bdd03d6bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="DELETE"><cleared>false</cleared><disabled>true</disabled><field>interview_date</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-30 08:53:07</sys_created_on><sys_id>958613cb93960b10bda0f82bdd03d6bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>interview_date</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>sys_ui_policy_action_958613cb93960b10bda0f82bdd03d6bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-30 08:53:07</sys_updated_on><table>x_1908554_jobflow_interview</table><ui_policy display_value="JF - Lock Completed Interview">d1e39f4793960b10bda0f82bdd03d6ad</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=958613cb93960b10bda0f82bdd03d6bc"/></record_update>]]></payload>
+<payload_hash>-1149877821</payload_hash>
+<remote_update_set display_value="Sprint-04">cfbc130b93d60b10bda0f82bdd03d6f8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-30 09:19:45</sys_created_on>
+<sys_id>cbbc130b93d60b10bda0f82bdd03d6fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fb23b0e7f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-30 09:19:45</sys_updated_on>
+<table>x_1908554_jobflow_interview</table>
+<target_name>interview_date</target_name>
+<type>UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>a2d61fcb1a960b10cf6106900ed19396</update_guid>
+<update_guid_history>a2d61fcb1a960b10cf6106900ed19396:-1149877821,8da6d3cbde960b10d8f51284b3753f5f:548640951</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

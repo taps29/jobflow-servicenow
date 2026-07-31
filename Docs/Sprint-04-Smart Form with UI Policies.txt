@@ -1,0 +1,199 @@
+# Sprint 4 – Smart Form Experience with UI Policies
+
+## Overview
+
+Sprint 4 focused on improving the usability and integrity of the JobFlow application by implementing **UI Policies**. Rather than adding unnecessary complexity, the goal was to make the application behave like a real-world recruitment tracker used by an individual job applicant.
+
+The implemented UI Policies dynamically controlled form behavior based on the application's state, reducing accidental data modification while keeping the user interface clean and intuitive.
+
+---
+
+## Objectives
+
+- Improve user experience using declarative UI Policies.
+- Prevent accidental modification of important records.
+- Demonstrate best practices for client-side form behavior.
+- Keep the implementation simple, practical, and production-oriented.
+
+---
+
+## Features Implemented
+
+### 1. Lock Company Field After Application Progresses
+
+**Table:** Job Application
+
+#### Business Requirement
+
+The company associated with a job application should only be editable while the application is in the **Applied** stage. Once the application progresses to later stages such as Interview Scheduled, Offer Received, or Rejected, the company should become read-only.
+
+This prevents accidental changes to the identity of an existing application.
+
+#### Configuration
+
+**UI Policy**
+
+| Property | Value |
+|----------|-------|
+| Name | JF - Lock Company Field |
+| Table | Job Application |
+| Active | Yes |
+| On Load | Yes |
+| Reverse if False | Yes |
+
+**Condition**
+
+```
+Application Status != Applied
+```
+
+**UI Policy Action**
+
+| Field | Action |
+|-------|--------|
+| Company | Read Only = True |
+
+#### Outcome
+
+- Company is editable while the application is in the Applied state.
+- Company automatically becomes read-only when the application progresses.
+- Reverse if False restores editability if the status changes back.
+
+---
+
+### 2. Lock Completed Interview
+
+**Table:** Interview
+
+#### Business Requirement
+
+Once an interview has been completed and a result has been recorded, interview details should no longer be modified. This preserves the historical accuracy of interview records.
+
+#### Configuration
+
+**UI Policy**
+
+| Property | Value |
+|----------|-------|
+| Name | JF - Lock Completed Interview |
+| Table | Interview |
+| Active | Yes |
+| On Load | Yes |
+| Reverse if False | Yes |
+
+**Condition**
+
+```
+Result is not empty
+```
+
+**UI Policy Actions**
+
+The following fields become read-only:
+
+- Interview Date
+- Interview Mode
+- Interviewer
+- Interview Round
+
+#### Outcome
+
+- Interview details remain editable while the interview is in progress.
+- After a result is recorded, important interview information is locked.
+- Reverse if False unlocks the fields if the result is cleared.
+
+---
+
+## Concepts Demonstrated
+
+- UI Policies
+- UI Policy Actions
+- Read-Only Field Behavior
+- Reverse if False
+- On Load Execution
+- Declarative Form Configuration
+
+---
+
+## Why UI Policies?
+
+UI Policies were selected because the requirements only affected the user interface. No server-side processing or custom scripting was required.
+
+Compared to Client Scripts, UI Policies provide:
+
+- Easier maintenance
+- Better readability
+- Less JavaScript
+- Faster configuration
+- Improved platform best practices
+
+---
+
+## Testing Performed
+
+### Lock Company Field
+
+- Created a new Job Application.
+- Verified the Company field was editable while the status was **Applied**.
+- Changed the status to **Interview Scheduled**.
+- Confirmed the Company field became read-only.
+- Reverted the status back to **Applied**.
+- Confirmed the Company field became editable again.
+
+---
+
+### Lock Completed Interview
+
+- Created an Interview record.
+- Confirmed interview fields were editable.
+- Updated the Result field.
+- Verified Interview Date, Interview Mode, Interviewer, and Interview Round became read-only.
+- Cleared the Result field.
+- Confirmed the fields became editable again.
+
+---
+
+## Best Practices Followed
+
+- Configuration over scripting
+- Consistent naming convention (`JF -`)
+- Single responsibility for each UI Policy
+- Reverse if False enabled
+- Tested after every implementation
+- Captured all changes in a dedicated Sprint 4 Update Set
+
+---
+
+## Skills Demonstrated
+
+- ServiceNow UI Policies
+- UI Policy Actions
+- Form Behavior Customization
+- Client-side Configuration
+- Data Integrity
+- Enterprise Form Design
+- ServiceNow Best Practices
+
+---
+
+## Sprint Outcome
+
+Sprint 4 enhanced the JobFlow application by introducing intelligent form behavior without adding unnecessary complexity. The implemented UI Policies improve usability while protecting important application and interview data from accidental modification.
+
+These enhancements align with real-world ServiceNow development practices and provide a strong demonstration of declarative platform configuration.
+
+---
+
+## Next Sprint
+
+**Sprint 5 – Workflow Automation using Flow Designer**
+
+Upcoming implementations include:
+
+- Automatic Interview Record Creation
+- Job Application Status Synchronization
+- Follow-up Reminder Flow
+- Email Notifications
+- End-to-End Process Automation
+
+This sprint will introduce workflow automation, one of the core capabilities of the ServiceNow platform.
