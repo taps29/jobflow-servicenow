@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-08-01 07:48:15">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<application_name>JobFlow</application_name>
+<application_scope>x_1908554_jobflow</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Sprint - 06 -Dashboards</description>
+<inserted/>
+<name>Sprint-06</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7aaad16b9396cb10bda0f82bdd03d653</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:13</sys_created_on>
+<sys_id>0efa5d7b93d64f10bda0f82bdd03d6fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_6785153f93964f10bda0f82bdd03d696</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent><name>JF - Applications by Status</name><properties>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelsType":"both","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"status","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","refreshRequest":"","registerOrientation":"horizontal","registerPosition":"bottom","scoreType":null,"selectedElements":[],"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"truncationType":"end","useDataCache":false,"wrapTitle":false,"sharedContext":null,"filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</properties><requested_by/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_COMPONENT.6785153f93964f10bda0f82bdd03d696"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.6785153f93964f10bda0f82bdd03d696"}]</required_translations><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:24:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>6785153f93964f10bda0f82bdd03d696</sys_id><sys_mod_count>1</sys_mod_count><sys_name>JF - Applications by Status</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_6785153f93964f10bda0f82bdd03d696</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:24:34</sys_updated_on><type>pie</type></par_visualization></record_update>]]></payload>
+<payload_hash>1893848349</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>02fa9d7b93d64f10bda0f82bdd03d600</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc35df7d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Status</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>2f85d97fce964f107b7bb8b6618f741d</update_guid>
+<update_guid_history>2f85d97fce964f107b7bb8b6618f741d:1893848349,af85d97f13964f1072ddc5051cc1251a:1893848349</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_permission_9ef7113793d64f10bda0f82bdd03d667</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>true</can_write><dashboard display_value="JobFlow Dashboard">16f79df393d64f10bda0f82bdd03d61b</dashboard><group/><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:35:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9ef7113793d64f10bda0f82bdd03d667</sys_id><sys_mod_count>0</sys_mod_count><sys_name>16f79df393d64f10bda0f82bdd03d61b</sys_name><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_permission_9ef7113793d64f10bda0f82bdd03d667</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:35:08</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user></par_dashboard_permission></record_update>]]></payload>
+<payload_hash>38279560</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>06fa5d7b93d64f10bda0f82bdd03d6fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3f8a830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>16f79df393d64f10bda0f82bdd03d61b</target_name>
+<type>PAR Dashboard Permission</type>
+<update_domain>global</update_domain>
+<update_guid>92f7113725d64f10ef630891194d316c</update_guid>
+<update_guid_history>92f7113725d64f10ef630891194d316c:38279560</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_permission_0237997393d64f10bda0f82bdd03d663</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission"><par_visualization_permission action="INSERT_OR_UPDATE"><can_share>true</can_share><component display_value="JF - Applications by Company">4a37197393d64f10bda0f82bdd03d673</component><group/><owner>true</owner><role/><sys_class_name>par_visualization_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:31:51</sys_created_on><sys_id>0237997393d64f10bda0f82bdd03d663</sys_id><sys_mod_count>0</sys_mod_count><sys_name>4a37197393d64f10bda0f82bdd03d673</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_permission_0237997393d64f10bda0f82bdd03d663</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:31:51</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><write>true</write></par_visualization_permission></record_update>]]></payload>
+<payload_hash>1652152430</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>06fa9d7b93d64f10bda0f82bdd03d601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3c88f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>4a37197393d64f10bda0f82bdd03d673</target_name>
+<type>PAR Visualization Permission</type>
+<update_domain>global</update_domain>
+<update_guid>ca379973ced64f10f4ce1e56fda82e65</update_guid>
+<update_guid_history>ca379973ced64f10f4ce1e56fda82e65:1652152430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_widget_35d9ddf793d64f10bda0f82bdd03d6ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">9ef7113793d64f10bda0f82bdd03d686</canvas><component display_value="Pie">96abe7e38d8790718022c5630a92176c</component><component_props>{"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"both","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"status","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","truncationType":"end","useDataCache":false,"wrapTitle":false,"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false,"userInfo":"@context.session.user","enableAddZerosAtApi":true,"emptyStateHeadingLevel":3,"showLoadingIndicator":false,"showFilterAsSeparateSeries":false,"lineClamp":1,"showExportOptions":true,"showRefresh":true,"useCurrentDateForEnd":false,"headerTitleAlignment":"start","showPercentageOfTotalInTooltip":true,"filterConfigurations":[],"filterPerMetric":[],"scoreType":null}</component_props><h>12</h><name>JF - Applications by Status</name><required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.35d9ddf793d64f10bda0f82bdd03d6ed"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.35d9ddf793d64f10bda0f82bdd03d6ed"}]</required_translations><stored_component display_value="JF - Applications by Status">1b85997f93964f10bda0f82bdd03d6e7</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:43:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>35d9ddf793d64f10bda0f82bdd03d6ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>JF - Applications by Status</sys_name><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_widget_35d9ddf793d64f10bda0f82bdd03d6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:43:18</sys_updated_on><visualization/><w>12</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+<payload_hash>1021512061</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>0afa5d7b93d64f10bda0f82bdd03d6fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc47036e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Status</target_name>
+<type>PAR Dashboard Widget</type>
+<update_domain>global</update_domain>
+<update_guid>31d9ddf7d9d64f100df164c46e9c0df0</update_guid>
+<update_guid_history>31d9ddf7d9d64f100df164c46e9c0df0:1021512061</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_permission_9f85997f93964f10bda0f82bdd03d6f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission"><par_visualization_permission action="INSERT_OR_UPDATE"><can_share>true</can_share><component display_value="JF - Applications by Status">1b85997f93964f10bda0f82bdd03d6e7</component><group/><owner>true</owner><role/><sys_class_name>par_visualization_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:24:33</sys_created_on><sys_id>9f85997f93964f10bda0f82bdd03d6f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1b85997f93964f10bda0f82bdd03d6e7</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_permission_9f85997f93964f10bda0f82bdd03d6f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:24:33</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><write>true</write></par_visualization_permission></record_update>]]></payload>
+<payload_hash>-1641168231</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>0afa9d7b93d64f10bda0f82bdd03d602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc35db0f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>1b85997f93964f10bda0f82bdd03d6e7</target_name>
+<type>PAR Visualization Permission</type>
+<update_domain>global</update_domain>
+<update_guid>5b85997fdf964f109239d3db0265e8f4</update_guid>
+<update_guid_history>5b85997fdf964f109239d3db0265e8f4:-1641168231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_widget_fb6951f793d64f10bda0f82bdd03d60a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">9ef7113793d64f10bda0f82bdd03d686</canvas><component display_value="Pie">96abe7e38d8790718022c5630a92176c</component><component_props>{"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"both","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"status","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","truncationType":"end","useDataCache":false,"wrapTitle":false,"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false,"userInfo":"@context.session.user","enableAddZerosAtApi":true,"emptyStateHeadingLevel":3,"showLoadingIndicator":false,"showFilterAsSeparateSeries":false,"lineClamp":1,"showExportOptions":true,"showRefresh":true,"useCurrentDateForEnd":false,"headerTitleAlignment":"start","showPercentageOfTotalInTooltip":true,"filterConfigurations":[],"filterPerMetric":[],"scoreType":null}</component_props><h>11</h><name>JF - Applications by Status</name><required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.fb6951f793d64f10bda0f82bdd03d60a"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.fb6951f793d64f10bda0f82bdd03d60a"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:41:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fb6951f793d64f10bda0f82bdd03d60a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>JF - Applications by Status</sys_name><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_widget_fb6951f793d64f10bda0f82bdd03d60a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:41:32</sys_updated_on><visualization/><w>5</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+<payload_hash>1620824926</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>0efa5d7b93d64f10bda0f82bdd03d6fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc4566a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Status</target_name>
+<type>PAR Dashboard Widget</type>
+<update_domain>global</update_domain>
+<update_guid>8c7951f768d64f10c4418da0e60c710f</update_guid>
+<update_guid_history>8c7951f768d64f10c4418da0e60c710f:1620824926</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_canvas_16f7113793d64f10bda0f82bdd03d67c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="JobFlow Dashboard">16f79df393d64f10bda0f82bdd03d61b</dashboard><dashboard_tab/><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:35:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>16f7113793d64f10bda0f82bdd03d67c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_canvas_16f7113793d64f10bda0f82bdd03d67c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:35:08</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+<payload_hash>2045488926</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:13</sys_created_on>
+<sys_id>42fa5d7b93d64f10bda0f82bdd03d6fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3f8b8c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:13</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Page Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>96f71137bfd64f102e01083f0330427f</update_guid>
+<update_guid_history>96f71137bfd64f102e01083f0330427f:2045488926</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_1b85997f93964f10bda0f82bdd03d6e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent><name>JF - Applications by Status</name><properties>{"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"both","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"status","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","truncationType":"end","useDataCache":false,"wrapTitle":false,"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false,"userInfo":"@context.session.user","enableAddZerosAtApi":true,"emptyStateHeadingLevel":3,"showLoadingIndicator":false,"showFilterAsSeparateSeries":false,"lineClamp":1,"showExportOptions":true,"showRefresh":true,"useCurrentDateForEnd":false,"headerTitleAlignment":"start","showPercentageOfTotalInTooltip":true,"filterConfigurations":[],"sharedContext":null,"filterPerMetric":[],"scoreType":null}</properties><requested_by/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_COMPONENT.1b85997f93964f10bda0f82bdd03d6e7"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.1b85997f93964f10bda0f82bdd03d6e7"}]</required_translations><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:24:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>1b85997f93964f10bda0f82bdd03d6e7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>JF - Applications by Status</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_1b85997f93964f10bda0f82bdd03d6e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:40:35</sys_updated_on><type>pie</type></par_visualization></record_update>]]></payload>
+<payload_hash>-530814990</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>42fa5d7b93d64f10bda0f82bdd03d6ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc4487450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Status</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>0639d5b724d64f106e1db003e03a5e7e</update_guid>
+<update_guid_history>0639d5b724d64f106e1db003e03a5e7e:-530814990,1b85997fe7964f10feb1791f595556ed:-86991261</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_7da791f393d64f10bda0f82bdd03d6ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent><name>JF - Applications by Source</name><properties>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelsType":"both","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"source","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","refreshRequest":"","registerOrientation":"horizontal","registerPosition":"bottom","scoreType":null,"selectedElements":[],"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"truncationType":"end","useDataCache":false,"wrapTitle":false,"sharedContext":null,"filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</properties><requested_by/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_COMPONENT.7da791f393d64f10bda0f82bdd03d6ba"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.7da791f393d64f10bda0f82bdd03d6ba"}]</required_translations><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:33:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>7da791f393d64f10bda0f82bdd03d6ba</sys_id><sys_mod_count>1</sys_mod_count><sys_name>JF - Applications by Source</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_7da791f393d64f10bda0f82bdd03d6ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:33:44</sys_updated_on><type>pie</type></par_visualization></record_update>]]></payload>
+<payload_hash>-319352656</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>46fa9d7b93d64f10bda0f82bdd03d600</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3e43910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Source</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>39a7d1f3e8d64f10203e4dcc5e5bd965</update_guid>
+<update_guid_history>39a7d1f3e8d64f10203e4dcc5e5bd965:-319352656,b9a7d1f375d64f10c24de1a5394f0262:-319352656</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_tab_1af7113793d64f10bda0f82bdd03d681</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="JobFlow Dashboard">16f79df393d64f10bda0f82bdd03d61b</dashboard><name>New Tab 2</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:35:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1af7113793d64f10bda0f82bdd03d681</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 2</sys_name><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_tab_1af7113793d64f10bda0f82bdd03d681</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:35:08</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+<payload_hash>-886438363</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>4afa5d7b93d64f10bda0f82bdd03d6fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3f8caa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>New Tab 2</target_name>
+<type>PAR Dashboard Tab</type>
+<update_domain>global</update_domain>
+<update_guid>12f71137bad64f102952f4ee7f8c5f85</update_guid>
+<update_guid_history>12f71137bad64f102952f4ee7f8c5f85:-886438363</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_permission_07d4d13f93964f10bda0f82bdd03d6cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission"><par_visualization_permission action="INSERT_OR_UPDATE"><can_share>true</can_share><component display_value="JF - Applications by Company">bad49dfb93964f10bda0f82bdd03d625</component><group/><owner>true</owner><role/><sys_class_name>par_visualization_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:21:32</sys_created_on><sys_id>07d4d13f93964f10bda0f82bdd03d6cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bad49dfb93964f10bda0f82bdd03d625</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_permission_07d4d13f93964f10bda0f82bdd03d6cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:21:32</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><write>true</write></par_visualization_permission></record_update>]]></payload>
+<payload_hash>1655649934</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>4afa9d7b93d64f10bda0f82bdd03d601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3316c10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>bad49dfb93964f10bda0f82bdd03d625</target_name>
+<type>PAR Visualization Permission</type>
+<update_domain>global</update_domain>
+<update_guid>87d4d13fb1964f101b538db7d954b9d2</update_guid>
+<update_guid_history>87d4d13fb1964f101b538db7d954b9d2:1655649934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_widget_b9d99df793d64f10bda0f82bdd03d687</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">9ef7113793d64f10bda0f82bdd03d686</canvas><component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component><component_props>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"chartVariation":"stacked","colorConfig":{"type":"default"},"componentId":"j2v5l2xh","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelPosition":"middle","dataSources":[{"allowRealTime":true,"filterQuery":"","dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","groupByField":"company","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","legendPosition":"bottom","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkyTnpJMU5ESTJPVFk9MTcxMjY3MjU0NDYxNg==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","scoreType":null,"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showClosestSeriesOnHover":true,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showLegend":true,"showLegendValue":false,"showMaximumRange":false,"showMetricLabel":false,"showOverlappingLabels":false,"showSecondGroupAggregate":false,"showSparkline":false,"showStackedValues":"none","showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"useDataCache":false,"wrapTitle":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","xAxisWrapLabels":false,"yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"yAxisStyle":"clean","filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</component_props><h>12</h><name>JF - Applications by Company</name><required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.b9d99df793d64f10bda0f82bdd03d687"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.b9d99df793d64f10bda0f82bdd03d687"}]</required_translations><stored_component display_value="JF - Applications by Company">4a37197393d64f10bda0f82bdd03d673</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:43:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9d99df793d64f10bda0f82bdd03d687</sys_id><sys_mod_count>0</sys_mod_count><sys_name>JF - Applications by Company</sys_name><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_widget_b9d99df793d64f10bda0f82bdd03d687</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:43:18</sys_updated_on><visualization/><w>12</w><widget_props/><x>0</x><y>11</y></par_dashboard_widget></record_update>]]></payload>
+<payload_hash>-727459189</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>4efa5d7b93d64f10bda0f82bdd03d6fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc4702db0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Company</target_name>
+<type>PAR Dashboard Widget</type>
+<update_domain>global</update_domain>
+<update_guid>31d9ddf73dd64f107a46bcf8dffea2e7</update_guid>
+<update_guid_history>31d9ddf73dd64f107a46bcf8dffea2e7:-727459189</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_permission_a36795b393d64f10bda0f82bdd03d6ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission"><par_visualization_permission action="INSERT_OR_UPDATE"><can_share>true</can_share><component display_value="JF - Applications by Employment Type">236795b393d64f10bda0f82bdd03d659</component><group/><owner>true</owner><role/><sys_class_name>par_visualization_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:32:46</sys_created_on><sys_id>a36795b393d64f10bda0f82bdd03d6ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>236795b393d64f10bda0f82bdd03d659</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_permission_a36795b393d64f10bda0f82bdd03d6ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:32:46</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><write>true</write></par_visualization_permission></record_update>]]></payload>
+<payload_hash>-1422755201</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>4efa9d7b93d64f10bda0f82bdd03d602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3d5efc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>236795b393d64f10bda0f82bdd03d659</target_name>
+<type>PAR Visualization Permission</type>
+<update_domain>global</update_domain>
+<update_guid>6f6795b345d64f1052ae3acbdad045b0</update_guid>
+<update_guid_history>6f6795b345d64f1052ae3acbdad045b0:-1422755201</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_widget_b9d9ddf793d64f10bda0f82bdd03d6e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">9ef7113793d64f10bda0f82bdd03d686</canvas><component display_value="Pie">96abe7e38d8790718022c5630a92176c</component><component_props>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelsType":"both","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"source","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","scoreType":null,"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"truncationType":"end","useDataCache":false,"wrapTitle":false,"filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</component_props><h>12</h><name>JF - Applications by Source</name><required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.b9d9ddf793d64f10bda0f82bdd03d6e8"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.b9d9ddf793d64f10bda0f82bdd03d6e8"}]</required_translations><stored_component display_value="JF - Applications by Source">7da791f393d64f10bda0f82bdd03d6ba</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:43:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9d9ddf793d64f10bda0f82bdd03d6e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>JF - Applications by Source</sys_name><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_widget_b9d9ddf793d64f10bda0f82bdd03d6e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:43:18</sys_updated_on><visualization/><w>12</w><widget_props/><x>0</x><y>23</y></par_dashboard_widget></record_update>]]></payload>
+<payload_hash>-727226429</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>82fa5d7b93d64f10bda0f82bdd03d6fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc47032c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Source</target_name>
+<type>PAR Dashboard Widget</type>
+<update_domain>global</update_domain>
+<update_guid>b9d9ddf7dcd64f1086f0b6fd387394eb</update_guid>
+<update_guid_history>b9d9ddf7dcd64f1086f0b6fd387394eb:-727226429</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_permission_cf85997f93964f10bda0f82bdd03d6e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission"><par_visualization_permission action="INSERT_OR_UPDATE"><can_share>true</can_share><component display_value="JF - Applications by Status">8385957f93964f10bda0f82bdd03d607</component><group/><owner>true</owner><role/><sys_class_name>par_visualization_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:24:33</sys_created_on><sys_id>cf85997f93964f10bda0f82bdd03d6e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>8385957f93964f10bda0f82bdd03d607</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_permission_cf85997f93964f10bda0f82bdd03d6e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:24:33</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><write>true</write></par_visualization_permission></record_update>]]></payload>
+<payload_hash>598135737</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>82fa9d7b93d64f10bda0f82bdd03d603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc35d8ff0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>8385957f93964f10bda0f82bdd03d607</target_name>
+<type>PAR Visualization Permission</type>
+<update_domain>global</update_domain>
+<update_guid>8b85997f93964f10100a9951dcf8eae3</update_guid>
+<update_guid_history>8b85997f93964f10100a9951dcf8eae3:598135737</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_236795b393d64f10bda0f82bdd03d659</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Vertical bar">23051643b7e03010097cb81cde11a910</macroponent><name>JF - Applications by Employment Type</name><properties>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"chartVariation":"stacked","colorConfig":{"type":"default"},"componentId":"j2v5l2xh","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelPosition":"middle","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"filterQuery":"","dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","groupByField":"employment_type","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","legendPosition":"bottom","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkyTnpJMU5ESTJPVFk9MTcxMjY3MjU0NDYxNg==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","refreshRequest":"","scoreType":null,"selectedElements":[],"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showClosestSeriesOnHover":true,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showLegend":true,"showLegendValue":false,"showMaximumRange":false,"showMetricLabel":false,"showOverlappingLabels":false,"showSecondGroupAggregate":false,"showSparkline":false,"showStackedValues":"none","showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"useDataCache":false,"wrapTitle":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","xAxisWrapLabels":false,"yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"yAxisStyle":"clean","sharedContext":null,"filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</properties><requested_by/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_COMPONENT.236795b393d64f10bda0f82bdd03d659"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.236795b393d64f10bda0f82bdd03d659"}]</required_translations><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:32:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>236795b393d64f10bda0f82bdd03d659</sys_id><sys_mod_count>1</sys_mod_count><sys_name>JF - Applications by Employment Type</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_236795b393d64f10bda0f82bdd03d659</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:32:46</sys_updated_on><type>bar</type></par_visualization></record_update>]]></payload>
+<payload_hash>-1207628413</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>86fa5d7b93d64f10bda0f82bdd03d6ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3d5ec90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Employment Type</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>ab6795b309d64f10fc49ced727f29eac</update_guid>
+<update_guid_history>ab6795b309d64f10fc49ced727f29eac:-1207628413,2f6795b313d64f1030560fbebe85b3a9:-1207628413</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_8385957f93964f10bda0f82bdd03d607</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent><name>JF - Applications by Status</name><properties>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelsType":"both","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"status","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","refreshRequest":"","registerOrientation":"horizontal","registerPosition":"bottom","scoreType":null,"selectedElements":[],"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"truncationType":"end","useDataCache":false,"wrapTitle":false,"sharedContext":null,"filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</properties><requested_by/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_COMPONENT.8385957f93964f10bda0f82bdd03d607"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.8385957f93964f10bda0f82bdd03d607"}]</required_translations><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:24:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>8385957f93964f10bda0f82bdd03d607</sys_id><sys_mod_count>1</sys_mod_count><sys_name>JF - Applications by Status</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_8385957f93964f10bda0f82bdd03d607</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:24:33</sys_updated_on><type>pie</type></par_visualization></record_update>]]></payload>
+<payload_hash>1853000429</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>8afa9d7b93d64f10bda0f82bdd03d600</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc35d8d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Status</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>c785997f00964f10d56c82be191dccdf</update_guid>
+<update_guid_history>c785997f00964f10d56c82be191dccdf:1853000429,4b85997fae964f103a70780ddeabfedc:1853000429</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_user_metadata_12f7113793d64f10bda0f82bdd03d66e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>24</cache_expiration_time><card_bg_image/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2026-08-01 07:35:08</created_on><dashboard display_value="JobFlow Dashboard">16f79df393d64f10bda0f82bdd03d61b</dashboard><edit_locked/><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_insight_sentiment>false</include_insight_sentiment><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_deactivated_on/><last_updated_on>2026-08-01 07:43:18</last_updated_on><po_project_id_list>[]</po_project_id_list><refresh_information>false</refresh_information><refresh_interval/><requested_by_user/><schedule_repetition>false</schedule_repetition><show_ai_insights_panel>false</show_ai_insights_panel><show_ai_summary>false</show_ai_summary><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:35:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>12f7113793d64f10bda0f82bdd03d66e</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_user_metadata_12f7113793d64f10bda0f82bdd03d66e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:43:18</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors><widgets_margin>$now-global-space--sm</widgets_margin></par_dashboard_user_metadata></record_update>]]></payload>
+<payload_hash>952558835</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>8efa5d7b93d64f10bda0f82bdd03d6fc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc4704ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Metadata</type>
+<update_domain>global</update_domain>
+<update_guid>b9d9113b16d64f105aa1a1ebad2ce328</update_guid>
+<update_guid_history>b9d9113b16d64f105aa1a1ebad2ce328:952558835,4c7951f789d64f10c95d745f18e29b33:954458169,92f7113700d64f10fcfc0c7e95b91575:-657301518</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_permission_2785d97f93964f10bda0f82bdd03d61f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission"><par_visualization_permission action="INSERT_OR_UPDATE"><can_share>true</can_share><component display_value="JF - Applications by Status">6785153f93964f10bda0f82bdd03d696</component><group/><owner>true</owner><role/><sys_class_name>par_visualization_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:24:35</sys_created_on><sys_id>2785d97f93964f10bda0f82bdd03d61f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6785153f93964f10bda0f82bdd03d696</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_permission_2785d97f93964f10bda0f82bdd03d61f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:24:35</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><write>true</write></par_visualization_permission></record_update>]]></payload>
+<payload_hash>122835641</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>8efa9d7b93d64f10bda0f82bdd03d601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc35e0320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>6785153f93964f10bda0f82bdd03d696</target_name>
+<type>PAR Visualization Permission</type>
+<update_domain>global</update_domain>
+<update_guid>ef85d97f16964f101aad9ad99f1ec321</update_guid>
+<update_guid_history>ef85d97f16964f101aad9ad99f1ec321:122835641</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_visibility_52f7113793d64f10bda0f82bdd03d68b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility"><par_dashboard_visibility action="INSERT_OR_UPDATE"><dashboard display_value="JobFlow Dashboard">16f79df393d64f10bda0f82bdd03d61b</dashboard><experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience><sys_class_name>par_dashboard_visibility</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:35:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>52f7113793d64f10bda0f82bdd03d68b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_visibility_52f7113793d64f10bda0f82bdd03d68b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:35:09</sys_updated_on></par_dashboard_visibility></record_update>]]></payload>
+<payload_hash>-797227418</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>c2fa5d7b93d64f10bda0f82bdd03d6fd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3f8d1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Visibility</type>
+<update_domain>global</update_domain>
+<update_guid>d2f71137c4d64f1067d76a1c7d206e8e</update_guid>
+<update_guid_history>d2f71137c4d64f1067d76a1c7d206e8e:-797227418</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_permission_31a7d1f393d64f10bda0f82bdd03d667</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_visualization_permission"><par_visualization_permission action="INSERT_OR_UPDATE"><can_share>true</can_share><component display_value="JF - Applications by Source">7da791f393d64f10bda0f82bdd03d6ba</component><group/><owner>true</owner><role/><sys_class_name>par_visualization_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:33:44</sys_created_on><sys_id>31a7d1f393d64f10bda0f82bdd03d667</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7da791f393d64f10bda0f82bdd03d6ba</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_permission_31a7d1f393d64f10bda0f82bdd03d667</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:33:44</sys_updated_on><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><write>true</write></par_visualization_permission></record_update>]]></payload>
+<payload_hash>-785933214</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>c2fa9d7b93d64f10bda0f82bdd03d602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3e44820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>7da791f393d64f10bda0f82bdd03d6ba</target_name>
+<type>PAR Visualization Permission</type>
+<update_domain>global</update_domain>
+<update_guid>f9a7d1f326d64f101681fb30b70ab269</update_guid>
+<update_guid_history>f9a7d1f326d64f101681fb30b70ab269:-785933214</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_widget_b9d9ddf793d64f10bda0f82bdd03d6f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">9ef7113793d64f10bda0f82bdd03d686</canvas><component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component><component_props>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"chartVariation":"stacked","colorConfig":{"type":"default"},"componentId":"j2v5l2xh","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelPosition":"middle","dataSources":[{"allowRealTime":true,"filterQuery":"","dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","groupByField":"employment_type","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","legendPosition":"bottom","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkyTnpJMU5ESTJPVFk9MTcxMjY3MjU0NDYxNg==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","scoreType":null,"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showClosestSeriesOnHover":true,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showLegend":true,"showLegendValue":false,"showMaximumRange":false,"showMetricLabel":false,"showOverlappingLabels":false,"showSecondGroupAggregate":false,"showSparkline":false,"showStackedValues":"none","showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"useDataCache":false,"wrapTitle":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","xAxisWrapLabels":false,"yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"yAxisStyle":"clean","filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</component_props><h>12</h><name>JF - Applications by Employment Type</name><required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.b9d9ddf793d64f10bda0f82bdd03d6f1"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.9ef7113793d64f10bda0f82bdd03d686.b9d9ddf793d64f10bda0f82bdd03d6f1"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:43:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9d9ddf793d64f10bda0f82bdd03d6f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>JF - Applications by Employment Type</sys_name><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_widget_b9d9ddf793d64f10bda0f82bdd03d6f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:43:18</sys_updated_on><visualization/><w>12</w><widget_props/><x>0</x><y>47</y></par_dashboard_widget></record_update>]]></payload>
+<payload_hash>2017364923</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>c6fa5d7b93d64f10bda0f82bdd03d6fe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc4703970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Employment Type</target_name>
+<type>PAR Dashboard Widget</type>
+<update_domain>global</update_domain>
+<update_guid>b1d9ddf7ded64f1056cb101dafb290f4</update_guid>
+<update_guid_history>b1d9ddf7ded64f1056cb101dafb290f4:2017364923</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>sys_metadata_link_16f7113793d64f10bda0f82bdd03d677</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;12f7113793d64f10bda0f82bdd03d66e&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="par_dashboard_user_metadata"&gt;&lt;par_dashboard_user_metadata action="INSERT_OR_UPDATE"&gt;&lt;background_color/&gt;&lt;cache_expiration_time&gt;0&lt;/cache_expiration_time&gt;&lt;card_bg_image/&gt;&lt;created_by_user display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/created_by_user&gt;&lt;created_on&gt;2026-08-01 07:35:08&lt;/created_on&gt;&lt;dashboard display_value="JobFlow Dashboard"&gt;16f79df393d64f10bda0f82bdd03d61b&lt;/dashboard&gt;&lt;edit_locked/&gt;&lt;enable_data_cache&gt;false&lt;/enable_data_cache&gt;&lt;include_custom_insights&gt;true&lt;/include_custom_insights&gt;&lt;include_insight_sentiment&gt;true&lt;/include_insight_sentiment&gt;&lt;include_key_contributors&gt;true&lt;/include_key_contributors&gt;&lt;include_kpi_signals&gt;true&lt;/include_kpi_signals&gt;&lt;include_predictive_target&gt;true&lt;/include_predictive_target&gt;&lt;include_predictive_thresholds&gt;true&lt;/include_predictive_thresholds&gt;&lt;include_process_mining&gt;true&lt;/include_process_mining&gt;&lt;include_severity&gt;true&lt;/include_severity&gt;&lt;include_target&gt;true&lt;/include_target&gt;&lt;include_thresholds&gt;true&lt;/include_thresholds&gt;&lt;include_trends&gt;true&lt;/include_trends&gt;&lt;include_widget_notification&gt;true&lt;/include_widget_notification&gt;&lt;last_deactivated_on/&gt;&lt;last_updated_on&gt;2026-08-01 07:35:08&lt;/last_updated_on&gt;&lt;po_project_id_list/&gt;&lt;refresh_information&gt;false&lt;/refresh_information&gt;&lt;refresh_interval/&gt;&lt;requested_by_user/&gt;&lt;schedule_repetition&gt;false&lt;/schedule_repetition&gt;&lt;show_ai_insights_panel&gt;true&lt;/show_ai_insights_panel&gt;&lt;show_ai_summary&gt;true&lt;/show_ai_summary&gt;&lt;show_insights_panel&gt;true&lt;/show_insights_panel&gt;&lt;sys_class_name&gt;par_dashboard_user_metadata&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-01 07:35:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;12f7113793d64f10bda0f82bdd03d66e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="JobFlow" source="x_1908554_jobflow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="JobFlow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_scope&gt;&lt;sys_update_name&gt;par_dashboard_user_metadata_12f7113793d64f10bda0f82bdd03d66e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-01 07:35:08&lt;/sys_updated_on&gt;&lt;updated_by_user display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/updated_by_user&gt;&lt;use_custom_tab_colors&gt;false&lt;/use_custom_tab_colors&gt;&lt;widgets_margin&gt;$now-global-space--sm&lt;/widgets_margin&gt;&lt;/par_dashboard_user_metadata&gt;&lt;/record_update&gt;]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-01 07:35:08&lt;/sys_created_on&gt;&lt;sys_id&gt;16f7113793d64f10bda0f82bdd03d677&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="JobFlow" source="x_1908554_jobflow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="JobFlow"&gt;42c8d5a693d6c310bda0f82bdd03d648&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_16f7113793d64f10bda0f82bdd03d677&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-01 07:35:08&lt;/sys_updated_on&gt;&lt;tablename&gt;par_dashboard_user_metadata&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-367099118</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>c6fa9d7b93d64f10bda0f82bdd03d603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3f8b520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>Metadata Snapshot</type>
+<update_domain>global</update_domain>
+<update_guid>96f7113748d64f1068b01ef69117e07a</update_guid>
+<update_guid_history>96f7113748d64f1068b01ef69117e07a:-367099118</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_4a37197393d64f10bda0f82bdd03d673</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="Vertical bar">23051643b7e03010097cb81cde11a910</macroponent><name>JF - Applications by Company</name><properties>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"chartVariation":"stacked","colorConfig":{"type":"default"},"componentId":"j2v5l2xh","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelPosition":"middle","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"filterQuery":"","dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","groupByField":"company","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","legendPosition":"bottom","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI2NzI1NDI2OTY=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkyTnpJMU5ESTJPVFk9MTcxMjY3MjU0NDYxNg==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","refreshRequest":"","scoreType":null,"selectedElements":[],"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showClosestSeriesOnHover":true,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showLegend":true,"showLegendValue":false,"showMaximumRange":false,"showMetricLabel":false,"showOverlappingLabels":false,"showSecondGroupAggregate":false,"showSparkline":false,"showStackedValues":"none","showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"useDataCache":false,"wrapTitle":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","xAxisWrapLabels":false,"yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"yAxisStyle":"clean","sharedContext":null,"filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</properties><requested_by/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_COMPONENT.4a37197393d64f10bda0f82bdd03d673"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.4a37197393d64f10bda0f82bdd03d673"}]</required_translations><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:31:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>4a37197393d64f10bda0f82bdd03d673</sys_id><sys_mod_count>1</sys_mod_count><sys_name>JF - Applications by Company</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_4a37197393d64f10bda0f82bdd03d673</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:31:51</sys_updated_on><type>bar</type></par_visualization></record_update>]]></payload>
+<payload_hash>622501926</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>cafa5d7b93d64f10bda0f82bdd03d6ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3c88a60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Company</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>0a37997374d64f104f3c0db85029bd61</update_guid>
+<update_guid_history>0a37997374d64f104f3c0db85029bd61:622501926,8a37997338d64f10f5d2f271e3dc835e:622501926</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_dashboard_canvas_9ef7113793d64f10bda0f82bdd03d686</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="JobFlow Dashboard">16f79df393d64f10bda0f82bdd03d61b</dashboard><dashboard_tab display_value="New Tab 2">1af7113793d64f10bda0f82bdd03d681</dashboard_tab><layout>[{"sys_id":"fb6951f793d64f10bda0f82bdd03d60a","x":0,"y":0,"w":5,"h":11,"name":"JF - Applications by Status","component_id":"96abe7e38d8790718022c5630a92176c","component_props":"{\"allowChangeDateRange\":false,\"applyDateRange\":false,\"bareBorder\":false,\"cacheExpirationTime\":0,\"colorConfig\":{\"type\":\"default\"},\"componentId\":\"b8do2jsn\",\"configVersion\":\"23.0.0-ci-SNAPSHOT\",\"dataLabelsType\":\"both\",\"dataSources\":[{\"allowRealTime\":true,\"dataCategories\":[\"group\",\"simple\",\"trend\"],\"id\":\"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=\",\"isDatabaseView\":false,\"preferredVisualizations\":[\"d24d53f60350de7a652caf3188a46ed2\"],\"sourceType\":\"table\",\"tableOrViewName\":\"x_1908554_jobflow_job_application\",\"metadataLabel\":\"Job Application\"}],\"dateFormat\":\"default\",\"emptyStateAlignment\":\"vertical-centered\",\"emptyStateContent\":\"There are no scores available for the selected criteria. Contact your admin for more info.\",\"emptyStateHeading\":\"No data available.\",\"emptyStateIllustration\":\"no-data\",\"enableClickAndStay\":false,\"enableCustomEmptyState\":false,\"enableDrilldown\":true,\"enableRealTimeUpdate\":false,\"followFilters\":true,\"groupBy\":[{\"disableRanges\":false,\"groupBy\":[{\"dataSource\":\"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=\",\"groupByField\":\"status\",\"isChoice\":true,\"isPaBucket\":false,\"isRange\":false}],\"maxNumberOfGroups\":10,\"numberOfGroupsBasedOn\":\"NO_OF_GROUP_BASED_ON_PER_METRIC\",\"showOthers\":false}],\"headingLevel\":2,\"hideDevSettings\":false,\"hideMatrixAggregate\":false,\"legendExpandToFit\":false,\"legendHorizontalAlignment\":\"center\",\"metrics\":[{\"aggregateFunction\":\"COUNT\",\"axisId\":\"primary\",\"dataSource\":\"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=\",\"id\":\"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==\",\"numberFormat\":{\"customFormat\":false}}],\"newReporting\":false,\"numberOfPeriods\":3,\"period\":\"M\",\"registerOrientation\":\"horizontal\",\"registerPosition\":\"bottom\",\"showAbsolutePeriod\":false,\"showAdditionalGroupBySelector\":false,\"showBorder\":true,\"showCacheTime\":true,\"showChange\":false,\"showChangeFrom\":\"previous\",\"showChangePercentage\":false,\"showComment\":false,\"showConfidenceBand\":false,\"showDataLabels\":false,\"showDataPassthrough\":false,\"showDataTable\":false,\"showDateRangeByDefault\":false,\"showFilterIcon\":true,\"showFirstGroupAggregate\":false,\"showForecast\":false,\"showForecastRange\":false,\"showGapPercentage\":false,\"showHeader\":true,\"showHeaderSeparator\":false,\"showMaximumRange\":false,\"showMetricLabel\":false,\"showRegister\":true,\"showRegisterOnSameLine\":false,\"showRegisterPercentage\":false,\"showRegisterValue\":false,\"showSecondGroupAggregate\":false,\"showSparkline\":false,\"showSubAggregate\":false,\"showTarget\":false,\"showThreshold\":false,\"showTotalAggregate\":false,\"showTrend\":false,\"sortBy\":\"value\",\"sortByOrder\":\"desc\",\"truncationType\":\"end\",\"useDataCache\":false,\"wrapTitle\":false,\"autoAggregatePeriods\":false,\"allowAdditionalGroupByPerMetric\":false,\"userInfo\":\"@context.session.user\",\"enableAddZerosAtApi\":true,\"emptyStateHeadingLevel\":3,\"showLoadingIndicator\":false,\"showFilterAsSeparateSeries\":false,\"lineClamp\":1,\"showExportOptions\":true,\"showRefresh\":true,\"useCurrentDateForEnd\":false,\"headerTitleAlignment\":\"start\",\"showPercentageOfTotalInTooltip\":true}","can_edit":true}]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:35:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9ef7113793d64f10bda0f82bdd03d686</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_dashboard_canvas_9ef7113793d64f10bda0f82bdd03d686</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:43:18</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+<payload_hash>394507442</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>cefa5d7b93d64f10bda0f82bdd03d6fb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc4703f70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name/>
+<type>PAR Dashboard Page Canvas</type>
+<update_domain>global</update_domain>
+<update_guid>bdd9ddf731d64f10e9b575bbfafc9bfa</update_guid>
+<update_guid_history>bdd9ddf731d64f10e9b575bbfafc9bfa:394507442,12f71137ead64f10bb81394c5b269e89:-1034906547</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</application>
+<category>customer</category>
+<comments/>
+<name>par_visualization_bad49dfb93964f10bda0f82bdd03d625</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="DELETE"><active>true</active><certified>false</certified><description/><macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent><name>JF - Applications by Company</name><properties>{"additionalGroupByConfig":[],"allowChangeDateRange":false,"applyDateRange":false,"bareBorder":false,"cacheExpirationTime":0,"colorConfig":{"type":"default"},"componentId":"b8do2jsn","configPropModifiers":{},"configVersion":"23.0.0-ci-SNAPSHOT","contextMenuActions":[],"dataLabelsType":"both","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"id":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","isDatabaseView":false,"filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1908554_jobflow_job_application","metadataLabel":"Job Application"}],"dateFormat":"default","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableClickAndStay":false,"enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":[],"followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","groupByField":"company","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headingLevel":2,"hideDevSettings":false,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MTI3NTE2MTYzOTA=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNVEkzTlRFMk1UWXpPVEE9MTcxMjc1MTYxODg5MQ==","numberFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":3,"period":"M","refreshRequest":"","registerOrientation":"horizontal","registerPosition":"bottom","scoreType":null,"selectedElements":[],"showAbsolutePeriod":false,"showAdditionalGroupBySelector":false,"showBorder":true,"showCacheTime":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showDataTable":false,"showDateRangeByDefault":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":false,"showRegisterValue":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":null,"truncationType":"end","useDataCache":false,"wrapTitle":false,"sharedContext":null,"filterPerMetric":[],"autoAggregatePeriods":false,"allowAdditionalGroupByPerMetric":false}</properties><requested_by/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_COMPONENT.bad49dfb93964f10bda0f82bdd03d625"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.bad49dfb93964f10bda0f82bdd03d625"}]</required_translations><scheduled_count>0</scheduled_count><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-01 07:21:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>bad49dfb93964f10bda0f82bdd03d625</sys_id><sys_mod_count>1</sys_mod_count><sys_name>JF - Applications by Company</sys_name><sys_package display_value="JobFlow" source="x_1908554_jobflow">42c8d5a693d6c310bda0f82bdd03d648</sys_package><sys_policy/><sys_scope display_value="JobFlow">42c8d5a693d6c310bda0f82bdd03d648</sys_scope><sys_update_name>par_visualization_bad49dfb93964f10bda0f82bdd03d625</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-01 07:21:32</sys_updated_on><type>pie</type></par_visualization></record_update>]]></payload>
+<payload_hash>1769828931</payload_hash>
+<remote_update_set display_value="Sprint-06">0efa5d7b93d64f10bda0f82bdd03d6fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-08-01 07:48:14</sys_created_on>
+<sys_id>cefa9d7b93d64f10bda0f82bdd03d600</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19fbc3b2be90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-08-01 07:48:14</sys_updated_on>
+<table/>
+<target_name>JF - Applications by Company</target_name>
+<type>PAR Visualization</type>
+<update_domain>global</update_domain>
+<update_guid>58e69d3385d64f101ca43133ffbcc648</update_guid>
+<update_guid_history>58e69d3385d64f101ca43133ffbcc648:1769828931,83d4d13fb0964f10493197c79a6b21c7:537277647</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

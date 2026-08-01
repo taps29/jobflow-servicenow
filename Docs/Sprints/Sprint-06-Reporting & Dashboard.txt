@@ -1,0 +1,158 @@
+# Sprint 6 – Reports & Dashboard
+
+## Overview
+
+Sprint 6 focused on enhancing the JobFlow application with reporting and analytics capabilities. The objective was to transform the application from a functional job tracker into a data-driven platform that provides meaningful insights into the job application process.
+
+Using ServiceNow's reporting engine and dashboard capabilities, several reports were created to visualize application progress, company distribution, interview outcomes, and other key metrics. These reports were then consolidated into a centralized dashboard for quick access.
+
+---
+
+## Business Requirement
+
+As the number of job applications increases, manually reviewing records becomes inefficient. A dashboard provides an at-a-glance overview of the job search pipeline, helping users answer questions such as:
+
+- How many applications have been submitted?
+- Which companies have received the most applications?
+- What is the current application status distribution?
+- What interview outcomes have been recorded?
+- What applications require immediate attention?
+
+This feature demonstrates how ServiceNow can be used not only for process automation but also for operational reporting and business intelligence.
+
+---
+
+## Features Implemented
+
+### Reporting
+
+Created custom reports for the JobFlow application:
+
+- Applications by Status (Pie Chart)
+- Applications by Company (Bar Chart)
+- Applications by Employment Type (Pie Chart)
+- Applications by Source (Pie Chart)
+
+These reports utilize ServiceNow's built-in reporting engine and dynamically update as new records are added.
+
+---
+
+### Dashboard
+
+Created a centralized dashboard:
+
+**Dashboard Name**
+
+```
+JobFlow Dashboard
+```
+
+The dashboard consolidates all JobFlow reports into a single workspace, allowing users to monitor their job search progress without navigating through individual lists.
+
+---
+
+## ServiceNow Concepts Demonstrated
+
+- Platform Analytics
+- Report Designer
+- Pie Charts
+- Bar Charts
+- Dashboard Creation
+- Dashboard Widgets
+- Data Aggregation
+- Grouping Records
+- Business Reporting
+- Visualization of Custom Tables
+
+---
+
+## Business Value
+
+The dashboard transforms raw application records into meaningful insights by enabling users to:
+
+- Monitor application progress
+- Identify companies with multiple applications
+- Analyze employment preferences
+- Track application sources
+- Review overall job search performance
+
+---
+
+## Technical Highlights
+
+- Reports built directly on custom JobFlow tables
+- Grouped data using business fields
+- Count-based aggregations for meaningful analytics
+- Consistent naming convention using the `JF -` prefix
+- Interactive dashboard with reusable report widgets
+
+---
+
+## Skills Demonstrated
+
+This sprint demonstrates practical experience with:
+
+- ServiceNow Reporting
+- Platform Analytics
+- Dashboard Configuration
+- Business Intelligence
+- Data Visualization
+- Custom Application Development
+- End-to-End Solution Design
+
+---
+
+## Project Status
+
+Sprint 6 marks the completion of the core JobFlow application.
+
+The application now includes:
+
+- ✔ Custom Data Model
+- ✔ Custom Tables
+- ✔ Relationships
+- ✔ Forms
+- ✔ Business Rules
+- ✔ Client Scripts
+- ✔ GlideAjax
+- ✔ Script Includes
+- ✔ UI Policies
+- ✔ Flow Designer Automations
+- ✔ Reports
+- ✔ Dashboard
+
+JobFlow has evolved into a practical ServiceNow portfolio project that showcases full-stack platform development, automation, reporting, and application design using ServiceNow best practices.
+
+---
+
+## Screenshots
+
+### Reports
+
+> *(Insert screenshots of individual reports here)*
+
+- Applications by Status
+- Applications by Company
+- Applications by Employment Type
+- Applications by Source
+
+### Dashboard
+
+> *(Insert screenshot of the JobFlow Dashboard here)*
+
+---
+
+## Next Steps
+
+Future enhancements considered for the project include:
+
+- Homepage / Landing Page
+- Performance Analytics Indicators
+- Email Notifications
+- Resume Parsing Integration
+- Calendar Integration
+- AI-assisted Job Insights
+- Mobile Experience
+- Service Portal / Employee Center Interface
+
+These enhancements are intentionally kept outside the completed portfolio scope to maintain a focused, production-ready application.

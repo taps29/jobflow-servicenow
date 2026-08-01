@@ -23,7 +23,6 @@ Rather than being a demonstration project, JobFlow is intended to evolve into a 
 
 - Custom Scoped Application
 - Company Management
-- Recruiter Management
 - Job Application Management
 - Interview Management
 - Relational Data Model
@@ -41,7 +40,6 @@ Rather than being a demonstration project, JobFlow is intended to evolve into a 
 - Resume Version Tracking
 - Follow-up Automation
 - Import Sets
-- REST API Integration
 
 ---
 

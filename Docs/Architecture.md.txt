@@ -1,0 +1,282 @@
+# JobFlow Application Architecture
+
+## Overview
+
+JobFlow is a custom ServiceNow scoped application designed to help users manage and track their job applications throughout the recruitment lifecycle.
+
+The application demonstrates end-to-end ServiceNow application development by combining a normalized data model, client-side scripting, server-side scripting, business rules, UI policies, Flow Designer automation, reporting, and dashboards.
+
+The architecture follows ServiceNow best practices by separating data storage, business logic, automation, and reporting into distinct layers.
+
+---
+
+# Architecture Overview
+
+```
+                           +----------------------+
+                           |    JobFlow Dashboard |
+                           +----------+-----------+
+                                      |
+                                      v
+                         +-------------------------+
+                         |   Reports & Analytics   |
+                         +-----------+-------------+
+                                     |
+                                     v
++-------------------------------------------------------------------+
+|                         Business Logic Layer                       |
+|-------------------------------------------------------------------|
+| • Business Rules                                                  |
+| • Client Scripts                                                  |
+| • GlideAjax                                                       |
+| • Script Includes                                                 |
+| • UI Policies                                                     |
+| • Flow Designer                                                   |
++------------------------------+------------------------------------+
+                               |
+                               v
++-------------------------------------------------------------------+
+|                           Data Layer                              |
+|-------------------------------------------------------------------|
+| Company                                                           |
+| Recruiter                                                         |
+| Job Application                                                   |
+| Interview                                                         |
++-------------------------------------------------------------------+
+```
+
+---
+
+# Application Components
+
+## 1. Data Layer
+
+The application stores business data using four custom tables.
+
+### Company
+
+Stores organization details.
+
+Examples:
+
+- Microsoft
+- Google
+- Deloitte
+
+---
+
+### Recruiter
+
+Stores recruiter information associated with a company.
+
+Examples:
+
+- Name
+- Email
+- Phone
+- Company Reference
+
+---
+
+### Job Application
+
+Core table of the application.
+
+Stores:
+
+- Job ID
+- Job Title
+- Company
+- Recruiter
+- Status
+- Application Date
+- Employment Type
+- Source
+
+---
+
+### Interview
+
+Stores interview details related to a job application.
+
+Examples:
+
+- Interview Date
+- Interview Type
+- Interview Round
+- Result
+
+---
+
+# Business Logic Layer
+
+Business logic is distributed across multiple ServiceNow platform features.
+
+## Business Rules
+
+Implemented:
+
+- Prevent duplicate Job Applications for the same Company and Job Title.
+
+Purpose:
+
+Maintain data quality and prevent duplicate records.
+
+---
+
+## Client Scripts
+
+Implemented:
+
+Automatically populate the Recruiter field when the Company changes.
+
+Purpose:
+
+Reduce manual effort and improve user experience.
+
+---
+
+## GlideAjax
+
+Used to retrieve recruiter information asynchronously without reloading the form.
+
+Purpose:
+
+Improve form responsiveness while minimizing server calls.
+
+---
+
+## Script Includes
+
+Provide reusable server-side logic for recruiter lookup.
+
+Purpose:
+
+Centralize business logic and improve maintainability.
+
+---
+
+## UI Policies
+
+Implemented:
+
+### Job Application
+
+Once an application progresses beyond **Applied**, the Company field becomes read-only.
+
+### Interview
+
+Once an Interview Result has been recorded, interview details become read-only.
+
+Purpose:
+
+Protect completed records from accidental modification.
+
+---
+
+## Flow Designer
+
+### JF - Auto Create Interview
+
+Trigger:
+
+Job Application Status changes to **Interview Scheduled**.
+
+Action:
+
+Automatically create a related Interview record.
+
+---
+
+### JF - Synchronize Interview Result
+
+Trigger:
+
+Interview Result changes.
+
+Action:
+
+Automatically update the related Job Application.
+
+---
+
+# Reporting Layer
+
+The application includes custom reports for operational visibility.
+
+Implemented reports:
+
+- Applications by Status
+- Applications by Company
+- Applications by Employment Type
+- Applications by Source
+
+These reports provide insights into application progress and trends.
+
+---
+
+# Dashboard
+
+The JobFlow Dashboard consolidates multiple reports into a single interface, allowing users to monitor:
+
+- Application Status Distribution
+- Company-wise Applications
+- Employment Type Distribution
+- Application Sources
+
+The dashboard updates automatically as application records change.
+
+---
+
+# Design Principles
+
+The application was designed using the following principles:
+
+- Modular architecture
+- Reusable business logic
+- Minimal code duplication
+- Declarative configuration where possible
+- Low-code automation using Flow Designer
+- Separation of data, logic, and presentation
+
+---
+
+# Technologies Used
+
+- ServiceNow Scoped Application
+- Custom Tables
+- Dictionary Configuration
+- Reference Fields
+- Forms & Lists
+- Business Rules
+- Client Scripts
+- GlideAjax
+- Script Includes
+- UI Policies
+- Flow Designer
+- Reports
+- Dashboards
+- Update Sets
+
+---
+
+# Future Enhancements
+
+Potential future improvements include:
+
+- Email Notifications
+- Scheduled Reminders
+- Calendar Integration
+- Resume Attachment Support
+- AI-assisted Job Insights
+- Service Portal Experience
+- Role-based Access Control
+- REST API Integration
+
+These enhancements were intentionally excluded to keep the project focused on demonstrating core ServiceNow development concepts.
+
+---
+
+# Summary
+
+JobFlow demonstrates a complete ServiceNow application architecture by integrating data modeling, scripting, workflow automation, reporting, and dashboards into a practical business solution. The modular design makes the application maintainable, scalable, and suitable as a portfolio project for ServiceNow Administrator and Developer roles.
