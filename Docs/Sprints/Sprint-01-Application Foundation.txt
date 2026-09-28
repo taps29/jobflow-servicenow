@@ -89,11 +89,6 @@ Interview
 
 ---
 
-## Screenshots
-
-(Add Sprint 1 screenshots here)
-
----
 
 ## Lessons Learned
 
